@@ -1,0 +1,112 @@
+.header {
+    background-image: url('/src/assets/images/header_img.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+
+
+    &_main {
+        padding-top: 29px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    ul {
+        display: flex;
+        gap: 40px;
+    }
+
+    li {
+        color: rgb(255, 255, 255);
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    &_right {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &_block {
+        width: 4px;
+        height: 4px;
+        background-color: white;
+    }
+
+    &_wrap {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+    }
+
+    &_suptitle {
+        color: rgb(255, 255, 255);
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    button {
+        width: 120px;
+        height: 46px;
+        box-sizing: border-box;
+        border: 2px solid rgb(255, 255, 255);
+        background: none;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        font-family: Libre Franklin;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+
+    }
+
+    .start {
+
+
+        h3 {
+            color: rgb(255, 255, 255);
+            font-family: Libre Franklin;
+            font-size: 71px;
+            font-weight: 700;
+            line-height: 78px;
+        }
+    }
+
+    .start_suptitle {
+        padding-top: 40px;
+        color: rgb(255, 255, 255);
+        font-family: IBM Plex Mono;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .start_btn {
+        margin-top: 60px;
+        width: 160px;
+        height: 60px;
+        border-radius: 4px;
+        color: rgb(255, 255, 255);
+        font-family: Libre Franklin;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        border: none;
+        background: rgb(90, 185, 99);
+    }
+
+    .start_main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 128px;
+    }
+}
